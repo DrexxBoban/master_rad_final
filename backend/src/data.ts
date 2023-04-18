@@ -1,0 +1,93 @@
+
+export const sample_foods: any[] = [
+  {
+    id:'1',
+    name: 'Mreze',
+    cookTime: '3h',
+    price: 4,
+    favorite: false,
+    origins: ['ETF'],
+    stars: 5,
+    imageUrl: 'assets/mreze',
+    tags: ['ETF', 'PMF'],
+  },
+  {
+    id:'2',
+    name: 'Radio-komunikacije',
+    price: 7,
+    cookTime: '2h',
+    favorite: true,
+    origins: ['ETF'],
+    stars: 5,
+    imageUrl: 'assets/radio-komunikacije',
+    tags: ['ETF'],
+  },
+  {
+    id:'3',
+    name: 'IoT',
+    price: 5,
+    cookTime: '3h',
+    favorite: false,
+    origins: ['PMF','ETF'],
+    stars: 5,
+    imageUrl: 'assets/IoT',
+    tags: ['PMF','ETF'],
+  },
+  {
+    id:'4',
+    name: 'Programiranje II',
+    price: 4,
+    cookTime: '4h',
+    favorite: true,
+    origins: ['ETF'],
+    stars: 5,
+    imageUrl: 'assets/programiranje',
+    tags: ['ETF'],
+  },
+  {
+    id:'5',
+    name: 'Matematika III',
+    price: 6,
+    cookTime: '2h',
+    favorite: false,
+    origins: ['MF'],
+    stars: 5,
+    imageUrl: 'assets/matematika III',
+    tags: ['MF'],
+  },
+  {
+    id:'6',
+    name: 'Engleski I',
+    price: 3,
+    cookTime: '2h',
+    favorite: false,
+    origins: ['ETF'],
+    stars: 5,
+    imageUrl: 'assets/engleski',
+    tags: ['ETF'],
+  },
+]
+
+export const sample_tags:any[] = [
+  { name: 'All', count: 6 },
+  { name: 'ETF', count: 5 },
+  { name: 'MF', count: 1 },
+  { name: 'PMF', count: 2 },
+]
+
+export const sample_users: any[] = [
+  {
+    name: "John Doe",
+    email: "john@gmail.com",
+    password: "12345",
+    address: "Toronto On",
+    isAdmin: true,
+  },
+  {
+    name: "Jane Doe",
+    email: "Jane@gmail.com",
+    password: "12345",
+    address: "Shanghai",
+    isAdmin: false,
+  },
+];
